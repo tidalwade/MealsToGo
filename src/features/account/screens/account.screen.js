@@ -15,7 +15,7 @@ export const AccountScreen = ({ navigation }) => {
   return (
     <AccountBackground>
       <AccountCover />
-      <AnimationWrapper>
+      {/* <AnimationWrapper>
         <LottieView
           key="animation"
           autoPlay
@@ -23,7 +23,7 @@ export const AccountScreen = ({ navigation }) => {
           resizeMode="cover"
           source={require("../../../../assets/watermelon.json")}
         />
-      </AnimationWrapper>
+      </AnimationWrapper> */}
       <Title>Meals To Go</Title>
       <AccountContainer>
         <AuthButton
