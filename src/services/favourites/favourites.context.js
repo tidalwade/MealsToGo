@@ -8,8 +8,6 @@ export const FavouritesContext = createContext();
 export const FavouritesContextProvider = ({ children }) => {
 const { user } = useContext(AuthenticationContext);
 
-console.log('user', user);
-
   const [favourites, setFavourites] = useState([]);
 
   const saveFavourites = async (value, uid) => {
